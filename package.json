@@ -1,0 +1,17 @@
+{
+  "name": "pg-events",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-seed": "PGDATABASE=nc_events jest seed.test.js",
+    "setup-db": "psql -f ./db/events.sql",
+    "seed": "PGDATABASE=nc_events node db/run-seed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

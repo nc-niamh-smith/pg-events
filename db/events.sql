@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS nc_events;
+CREATE DATABASE nc_events;
